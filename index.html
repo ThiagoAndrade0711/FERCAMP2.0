@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./assets/styles/style.css">
     <title>Fercamp | Ferramentas Comercio de Ferragens</title>
 </head>
@@ -61,18 +62,67 @@
                         <p>Ferragens e Ferramentas</p>
                         <div class="barra-branca"></div>
                     </div>
-                    
+
                     <a class="destaque__btn" href="#">Nossos Produtos</a>
                 </div>
             </div>
-            <div></div>
+        </section>
 
+        <section class="chamativo">
+            <img class="chamativo__img-detalhe" src="./assets/img/datalhe.png" alt="Imagem de um detalhe ilustrativo">
+            <img class="chamativo__img-detalhe-2" src="./assets/img/datalhe2.png"
+                alt="Imagem de um detalhe ilustrativo">
+            <div class="chamativo__container">
+                <div class="chamativo__box-inicial">
+                    <p class="chamativo__as chamativo__font">As</p>
+                    <p class="texto-verde ferramentas chamativo__font">Ferramentas</p>
+                    <p class="chamativo__perfeitas chamativo__font">Perfeitas</p>
+                </div>
 
+                <div>
+                    <img class="chamativo__img" src="./assets/img/fercamp-detail-promo.png" alt="">
+                </div>
+
+                <div class="chamativo__box-final">
+                    <p class="chamativo__font chamativo__para-todos">Para todos os <span
+                            class="texto-verde">projetos!</span></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="seguimentos">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="./assets/img/fercamp-detail-promo.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/img/fercamp-detail-promo.png" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/img/fercamp-detail-promo.png" alt=""></div>
+                    ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
         </section>
     </main>
     <footer>
 
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        });
+    </script>
 </body>
 
 </html>
