@@ -52,6 +52,7 @@
         </div>
     </header>
     <main>
+
         <section class="destaque">
             <div class="destaque__container">
                 <div class="mascara"></div>
@@ -70,8 +71,7 @@
 
         <section class="chamativo">
             <img class="chamativo__img-detalhe" src="./assets/img/datalhe.png" alt="Imagem de um detalhe ilustrativo">
-            <img class="chamativo__img-detalhe-2" src="./assets/img/datalhe2.png"
-                alt="Imagem de um detalhe ilustrativo">
+            <img class="chamativo__img-detalhe-2" src="./assets/img/datalhe2.png" alt="Imagem de um detalhe ilustrativo">
             <div class="chamativo__container">
                 <div class="chamativo__box-inicial">
                     <p class="chamativo__as chamativo__font">As</p>
@@ -90,39 +90,153 @@
             </div>
         </section>
 
-        <section class="seguimentos">
+        <section id="segmentos" class="carrosel">
+            <h2 class="titulo-segmentos">Segmentos</h2>
             <!-- Slider main container -->
             <div class="swiper">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
-                    <div class="swiper-slide"><img src="./assets/img/fercamp-detail-promo.png" alt=""></div>
-                    <div class="swiper-slide"><img src="./assets/img/fercamp-detail-promo.png" alt=""></div>
-                    <div class="swiper-slide"><img src="./assets/img/fercamp-detail-promo.png" alt=""></div>
-                    ...
+                    <div class="swiper-slide"><div class="slide slide1"></div><div class="mascara3"></div><a id="slide-link" class="slide-link" href="./pages/produtos.html"><p class="slide-texto">Máquinas</p><img class="icone-swiper" src="./assets/img/logo branca.png" alt=""></a></div>
+                    <div class="swiper-slide"><div class="slide slide2"></div><div class="mascara3"></div><a id="slide-link"  class="slide-link" href="./pages/produtos.html"><p class="slide-texto">Ferramentas</p><img class="icone-swiper" src="./assets/img/logo branca.png" alt=""></a></div>
+                    <div class="swiper-slide"><div class="slide slide5"></div><div class="mascara3"></div><a id="slide-link"  class="slide-link" href="./pages/produtos.html"><p class="slide-texto">Abrasivos</p><img class="icone-swiper" src="./assets/img/logo branca.png" alt=""></a></div>
+                    <div class="swiper-slide"><div class="slide slide7"></div><div class="mascara3"></div><a id="slide-link"  class="slide-link" href="./pages/produtos.html"><p class="slide-texto">Ferragens</p><img class="icone-swiper" src="./assets/img/logo branca.png" alt=""></a></div>
+                    <div class="swiper-slide"><div class="slide slide6"></div><div class="mascara3"></div><a id="slide-link"  class="slide-link" href="./pages/produtos.html"><p class="slide-texto">EPI</p><img class="icone-swiper" src="./assets/img/logo branca.png" alt=""></a></div>
+                    <div class="swiper-slide"><div class="slide slide3"></div><div class="mascara3"></div><a id="slide-link"  class="slide-link" href="./pages/produtos.html"><p class="slide-texto">Soldagem</p><img class="icone-swiper" src="./assets/img/logo branca.png" alt=""></a></div>
+                    <div class="swiper-slide"><div class="slide slide4"></div><div class="mascara3"></div><a id="slide-link"  class="slide-link" href="./pages/produtos.html"><p class="slide-texto">Tintas</p><img class="icone-swiper" src="./assets/img/logo branca.png" alt=""></a></div>
+                    <div class="swiper-slide"><div class="slide slide8"></div><div class="mascara3"></div><a id="slide-link"  class="slide-link" href="./pages/produtos.html"><p class="slide-texto">Vedantes</p><img class="icone-swiper" src="./assets/img/logo branca.png" alt=""></a></div>
+                    
                 </div>
                 <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-
+                <!-- <div class="swiper-pagination"></div> -->
+            
                 <!-- If we need navigation buttons -->
                 <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+                <div class="swiper-button-next"></div>          
+            </div>   
+        </section>
 
-                <!-- If we need scrollbar -->
-                <div class="swiper-scrollbar"></div>
+        <section class="sobre-nos">
+            <div class="sobre-nos__container">
+                <div class="mascara-sobre-nos"></div>
+                <div class="sobre-nos__container-box">
+                    <div class="sobre-nos__titulo">
+                        <h2 class="titulo-sobre-nos">Sobre Nós</h2>
+                        <p class="sobre-nos__p p-historia">Há mais de 27 anos, a Fercamp tem sido uma referência no mercado, oferecendo soluções inovadoras e de alta qualidade para seus clientes. Nosso compromisso com a excelência e nossa paixão por fornecer os melhores produtos e serviços nos levaram a conquistar a confiança de milhares de clientes ao longo dos anos.</p>
+                    </div>
+                    <div class="sobre-nos__valores">
+                        <h2 class="titulo-sobre-nos">Valores</h2>
+                        <div class="sobre-nos__valores-box">
+                            <img class="icn-valores" src="./assets/img/valores-icn.svg" alt="Icone de valores, representados por uma balança">
+                            <p class="sobre-nos__p">Paixão pelo que fazemos - Transparência, honestidade e respeito com os nossos clientes - Valorização dos nossos colaboradores e trabalho em equipe - Respeito aos nossos concorrentes - Busca constante por fazer a diferença.</p>
+                        </div>
+                        <div class="sobre-nos__valores-box">
+                            <img class="icn-valores" src="./assets/img/visai-icn.svg" alt="Icone de visão, representado por um olho com lupa">
+                            <p class="sobre-nos__p">Ser reconhecida em nível nacional, como tendo a melhor qualidade, agilidade e atendimento no fornecimento de ferragens e ferramentas.</p>
+                        </div>
+                        <div class="sobre-nos__valores-box">
+                            <img class="icn-valores" src="./assets/img/target-icn.svg" alt="Icone de missão">
+                            <p class="sobre-nos__p">Oferecer soluções em ferramentaria para todos os clientes, com o máximo de qualidade e inovação, visando sempre a satisfação de nossos compradores.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
+
+        <section id="localizacao" class="localizacao section-padrao">
+            <div class="container-localizacao">
+                <div class="icone-titulo">
+                    <img src="./assets/img/maps 1.svg" alt="Icone do google maps">
+                    <h4>Localização</h4>
+                </div>
+                <div class="box-mapa">
+                    <iframe class="mapa"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2549.068372790662!2d-49.082337834966296!3d-25.373760797524753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dced78bd8c487b%3A0xd0ad30858bcead2a!2sTLS%20Epi%C2%B4s!5e0!3m2!1spt-BR!2sbr!4v1687877193523!5m2!1spt-BR!2sbr" width="600" height="450" allowf"ullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="info-localizacao">
+                    <p class="text-localizacao-amarelo texto-localizacao">Estamos localizados na Avenida Prefeito Domingos Mocelin Neto 155 - Centro - Quatro Barras - Paraná</p>
+                    <p class="texto-localizacao">Estamos orgulhosos de fazer parte da comunidade de Quatro Barras e
+                        atender às necessidades de nossos clientes nas áreas circunvizinhas. Se você tiver alguma dúvida
+                        ou precisar de ajuda para nos encontrar, não hesite em entrar em contato conosco. Esperamos
+                        vê-lo em breve!</p>
+                </div>
+            </div>
+
+
+            <div class="container-localizacao-desktop">
+                <div class="conjunto-localizacao">
+                    <div class="icone-titulo-2">
+                        <img src="./assets/img/maps 1.svg" alt="Icone do google maps">
+                        <h4 class="h4-2">Localização</h4>
+                    </div>
+                    <div class="info-localizacao-2">
+                        <p class="text-localizacao-amarelo texto-localizacao-2">Estamos localizados na Avenida Prefeito Domingos Mocelin Neto 155 - Centro - Quatro Barras - Paraná</p>
+                        <p class="texto-localizacao-2">Estamos orgulhosos de fazer parte da comunidade de Quatro Barras
+                            e atender às necessidades de nossos clientes nas áreas circunvizinhas. Se você tiver alguma
+                            dúvida ou precisar de ajuda para nos encontrar, não hesite em entrar em contato conosco.
+                            Esperamos vê-lo em breve!</p>
+                    </div>
+                </div>
+                <iframe class="mapa-2"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2549.068372790662!2d-49.082337834966296!3d-25.373760797524753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dced78bd8c487b%3A0xd0ad30858bcead2a!2sTLS%20Epi%C2%B4s!5e0!3m2!1spt-BR!2sbr!4v1687877193523!5m2!1spt-BR!2sbr"
+                    allowf"ullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="contato">
+            <h2>Contato</h2>
+            <div class="contato__container">
+                <h3 class="contato__vendas">Vendas</h3>
+                <div class="contato__container-main">
+                    <div class="contato__container-children">
+                        <div class="contato__container-box">
+                            <img src="./assets/img/valores-icn.svg" alt="">
+                            <p>nome: Felipe Willian</p>
+                        </div>
+                        <div class="contato__container-box">
+                            <img src="./assets/img/valores-icn.svg" alt="">
+                            <p>Email: vendasadoroferramentas@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contato__container-children">
+                        <div class="contato__container-box">
+                            <img src="./assets/img/valores-icn.svg" alt="">
+                            <p>Whats-app: (41) 9 9507-8326</p>
+                        </div>
+                        <div class="contato__container-box">
+                            <img src="./assets/img/valores-icn.svg" alt="">
+                            <p>Telefone: (41)3679-1898</p>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+            </div>
+        </section>
+
+        <section class="saber-mais">
+            <div class="mascara"></div>
+            <div class="saber-mais__container">
+                <div class="saber-mais__container-box">
+                    <h2 class="saber-mais__titulo">Quer saber mais? Envie-nos uma mensagem no WhatsApp!</h2>
+                    <div class="saber-mais__box">
+                        <textarea cols="30" rows="2"  wrap="hard" id="mensagem" placeholder="Digite a sua mensagem" ></textarea>
+                        <label class="saber-mais__enviar" for="mensagem">Enviar</label>
+                        <img src="./assets/img/icons8-whatsapp-50 (1) 2.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <a class="link-whatsapp" target="_blank" rel="noopener noreferral" href="https://api.whatsapp.com/send?phone=41995078326&text=Olá,%20eu%20gostaria%20de%20realizar%20um%20orçamento."><img src="assets/img/whatsapp-icone.svg" alt="Link para o Whats-app"></a>
     </main>
     <footer>
 
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script>
-        const swiper = new Swiper('.swiper', {
-            slidesPerView: 1,
-            spaceBetween: 10,
-        });
-    </script>
+    <script src="./Js/swiper.js"></script>
 </body>
 
 </html>
